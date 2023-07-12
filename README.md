@@ -9,21 +9,21 @@ users exchanging messages.
 *Key domain models which both SQL tables and Java classes must be implemented for are:*
 
 User:
-  User ID
-  Login
-  Password
-  List of created rooms
-  List of chatrooms
+  User ID,
+  Login,
+  Password,
+  List of created rooms,
+  List of chatrooms,
 
 Chatroom:
-  Chatroom id
-  Chatroom name
-  Chatroom owner
-  List of messages in chatroom
+  Chatroom id,
+  Chatroom name,
+  Chatroom owner,
+  List of messages in chatroom,
 
 Message:
-  Message id
-  Message author
-  Message room
-  Message text
-  Message date/time
+  Message id,
+  Message author,
+  Message room,
+  Message text,
+  Message date/time.
